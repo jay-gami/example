@@ -1,0 +1,53 @@
+
+  header{
+    background-color: black;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 40px;
+
+}
+section{
+    
+    display: flex;
+}
+aside{
+    
+    width: 30%;
+    padding: 20px;
+    
+    background-color: rgb(209, 231, 186);
+    color: aliceblue;
+    
+
+
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    
+    
+}
+
+article {
+    
+    padding: 20px;
+    width: 70%;
+    background-color: #f1f1f1;
+     
+  }
+
+  footer {
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+    color: white;
+
+  }
+  @media screen and (max-width: 700px) {
+    nav, article ,footer {
+      width: 100%;
+      height: auto;
+    }
+  }
+

@@ -1,0 +1,11 @@
+.flex-c{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    font-size: 30px;
+    background-color: lightcoral;
+    flex-wrap: wrap;
+    line-height: 75px;
+    flex-direction: column-reverse;
+    width: 20%;
+}

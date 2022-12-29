@@ -1,0 +1,122 @@
+header{
+    background-color: wheat;
+    padding: 60px;
+
+
+}
+
+
+.one ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: aqua;
+    justify-content: space-around;
+
+    
+}
+
+nav ul li{
+    padding: 30px;
+    list-style-type:none ; 
+
+}
+.main{
+    margin-top: 0;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+.two{
+    width: 50%;
+}
+.thr{
+    width: 50%;
+}
+
+.fmain{
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
+}
+.ftwo{
+    margin-top: 10px;
+    display: flex;
+    width: 50%;
+}
+h1{
+    font-size: 27px;
+    text-align: center;
+}
+h5{
+        position: sticky;
+
+    margin-top: 0;
+    font-size: 50px;
+    text-align:center;
+   
+}
+
+.zr p{
+    font-size: 20px;
+}
+
+.zra ul{
+    margin-right: 100px;
+    padding-left: 0;
+}
+
+
+.zra ul li {
+    list-style-type: none;
+    list-style-position:inside ;
+    border: 1px solid wheat; 
+
+}
+
+.zra a:visited{
+    color: black;
+}
+
+.fthr{ 
+    margin-top: 10px;
+
+    width: 50%;
+}
+
+.tr{
+    background-color: pink;
+    padding-bottom: 10px;
+    width: 50%;
+}
+.fr{
+    margin-top: 0;
+    padding-left: 2px;
+    background-color: aqua;
+
+
+}
+
+.fr p{
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-top: 15px;
+
+    
+}
+
+.zr{  
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    background-color: lightblue;
+}
+
+@media screen and (max-width:768px) {
+    .zra,.ftwo,.zr,.fthr,.fr,.tr .main,.two,.thr{
+    width: 100%;
+  }
+}

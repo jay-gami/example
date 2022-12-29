@@ -1,0 +1,43 @@
+.one {
+    background-color: gray;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+.three{
+   width: 33.33%;
+   /* float: left; */
+
+   
+}
+.two{
+    width: 33.33%;
+    /* float: left; */
+    background-color: lightgray;
+}
+
+    .main{
+        display: flex ;
+        flex-wrap: wrap;
+        width: 100%;
+
+    }
+
+.four{
+    width: 33.33%;
+    background-color: lightgray;
+
+
+}
+
+.five{
+    text-align: center;
+}
+
+@media  screen and (max-width:768px) {
+    .four,.two,.three{
+        width: 100%;
+    }
+    
+}
+

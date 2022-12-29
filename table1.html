@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td,th{
+            
+            border-collapse: collapse;
+            width: 60%;
+            height: 60%;
+            padding: 20px;
+            margin: 200px;
+            border-style:dashed ;
+            text-align: center;}
+
+            /* td:nth-child(even){background-color:blue;}    
+            th:hover{
+                background-color: aqua;
+            } */
+            
+            th,td{
+                background-color: aqua;
+            }
+
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption style="font-size: 80px;">Data</caption>
+        <tr>
+            <th >one</th>
+            <td>1</td>
+            <td colspan="2">2</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <th colspan="2">two</th>
+            <td>4</td>
+            <td>5</td>
+            <td rowspan="3">6</td>
+        </tr>
+        <tr>
+            <th>two</th>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th>two</th>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+        </tr>
+        <tr>
+            <th colspan="2">two</th>
+            <td>4</td>
+            <td>5</td>
+            <td >6</td>
+        </tr>
+    </table>
+    
+</body>
+</html>

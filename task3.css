@@ -1,0 +1,42 @@
+header{
+    text-align: center;
+    padding: 20px;
+    margin-left: 0;
+    background-color: lightcoral;
+   
+}
+section{
+    display: flex;
+    width: 100%;
+}
+.one{
+    padding: 40px;
+    background-color: lightpink;
+    width: 20%;
+
+}
+.two{
+    padding: 40px;
+    background-color: lightpink;
+    width: 20%;
+}
+article{
+    background-color: lightcyan;
+    padding-left: 10px;
+    width: 60%;
+}
+
+footer{
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+@media screen and(max-width:712px) {
+    .one,.two{
+        width: 100%;
+    }
+    
+}
+

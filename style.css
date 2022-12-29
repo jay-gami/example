@@ -1,0 +1,30 @@
+/*selector css (name,id,class)
+p{
+    text-align: center;
+    color: #000;
+}
+id
+#head{
+    text-align:center;
+    color: #fff;
+}
+class
+.hhh{
+    text-align:center;
+    color: #222;
+}
+universal selector
+*{
+    it apply on all elements
+}
+grouping selector
+h1{
+}
+h3{
+}
+a{
+}
+ all html elemets with same style defn
+ */
+
+ 
